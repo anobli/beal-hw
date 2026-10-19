@@ -6,12 +6,14 @@ on:
       - "Beal-Rx/**"
       - "Beal-TX/**"
       - "Beal-Common/**"
+      - "scripts/jlcpcb-export.py"
       - ".github/workflows/kicad-schematic-pdf.yml"
   pull_request:
     paths:
       - "Beal-Rx/**"
       - "Beal-TX/**"
       - "Beal-Common/**"
+      - "scripts/jlcpcb-export.py"
       - ".github/workflows/kicad-schematic-pdf.yml"
   workflow_dispatch:
 
@@ -49,3 +51,29 @@ jobs:
           path: |
             ${{ matrix.name }}-schematic.pdf
             ${{ matrix.name }}-bom.csv
+
+  jlcpcb:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:10.0
+      options: --user root
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Beal-RX
+            dir: Beal-Rx
+          - name: Beal-TX
+            dir: Beal-TX
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Export JLCPCB files
+        run: python3 scripts/jlcpcb-export.py ${{ matrix.dir }}/${{ matrix.name }}.kicad_pro jlcpcb
+
+      - name: Upload JLCPCB files
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.name }}-jlcpcb
+          path: jlcpcb/
