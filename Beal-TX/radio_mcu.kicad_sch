@@ -3022,19 +3022,13 @@
 		(uuid "12e62f7d-b7b8-4202-b3a5-59d576bf3ae9")
 	)
 	(junction
-		(at 53.34 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "217e8838-2537-4e0b-b5cc-0b126fd6919f")
-	)
-	(junction
 		(at 41.91 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25eaee40-2995-4f4d-b540-f312b2aca1b5")
 	)
 	(junction
-		(at 170.18 69.85)
+		(at 177.8 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46941487-e3c9-42cb-bc88-f0c4a7643c62")
@@ -3044,6 +3038,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c139771-5a9d-4960-a290-d0735e92d264")
+	)
+	(junction
+		(at 58.42 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "648e032b-63c0-4caa-92e8-bdbf60ab9cb1")
 	)
 	(junction
 		(at 195.58 39.37)
@@ -3056,6 +3056,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7054965d-aee7-4551-a2e8-d5501989e51d")
+	)
+	(junction
+		(at 59.69 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c2925ad-77a8-4bee-aaea-aca3921d6188")
 	)
 	(junction
 		(at 39.37 146.05)
@@ -3136,12 +3142,6 @@
 		(uuid "e5cb2e4c-8b17-477c-b1fb-617a6f4a2ba4")
 	)
 	(junction
-		(at 50.8 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0455ee3-1c91-4101-add4-caa3163bbdfd")
-	)
-	(junction
 		(at 121.92 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3152,12 +3152,12 @@
 		(uuid "492e8c38-8e09-487d-8721-6d625919f3ca")
 	)
 	(no_connect
-		(at 49.53 39.37)
-		(uuid "dd025f40-ebb5-4b9d-869a-f7af220d3daa")
+		(at 154.94 30.48)
+		(uuid "d8a29790-87bc-4deb-a576-c7aff6bb2691")
 	)
 	(no_connect
-		(at 167.64 66.04)
-		(uuid "e70e342e-3282-48b1-b9e4-672fbd54df24")
+		(at 49.53 34.29)
+		(uuid "ea3c34ed-be14-49b4-8e20-4b16d60df95f")
 	)
 	(wire
 		(pts
@@ -3341,33 +3341,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 31.75) (xy 57.15 31.75)
+			(xy 49.53 31.75) (xy 62.23 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47ca2e4a-81b7-48a6-b0dc-6d2574356265")
-	)
-	(wire
-		(pts
-			(xy 50.8 34.29) (xy 57.15 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b928ac5-85c0-4440-aa17-2d2ae2e2948b")
-	)
-	(wire
-		(pts
-			(xy 49.53 34.29) (xy 50.8 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7be89e-8bbc-48d0-9856-528c61fa9e63")
 	)
 	(wire
 		(pts
@@ -3491,16 +3471,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 36.83) (xy 57.15 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a21eb6e-0f58-43b6-9682-621365c2de17")
-	)
-	(wire
-		(pts
 			(xy 45.72 151.13) (xy 41.91 151.13)
 		)
 		(stroke
@@ -3511,13 +3481,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 71.12) (xy 170.18 69.85)
+			(xy 177.8 71.12) (xy 177.8 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80e043fb-2900-4ce0-a0b1-2f525c4bbd4b")
+	)
+	(wire
+		(pts
+			(xy 58.42 39.37) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c7dc66-76cf-4d2a-917c-c61183b1edd5")
 	)
 	(wire
 		(pts
@@ -3598,16 +3578,6 @@
 			(type default)
 		)
 		(uuid "960b2f5a-7d7a-4c9a-93da-1f0d061f60c3")
-	)
-	(wire
-		(pts
-			(xy 170.18 69.85) (xy 186.69 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a23c8b6a-f39e-491a-83d2-933f5d89b79d")
 	)
 	(wire
 		(pts
@@ -3771,16 +3741,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 36.83) (xy 53.34 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce717b8f-e003-4e11-a6d1-911aae4745f3")
-	)
-	(wire
-		(pts
 			(xy 33.02 121.92) (xy 39.37 121.92)
 		)
 		(stroke
@@ -3861,6 +3821,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 39.37) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd83376-7e5a-4f18-86ad-211b2a0ff956")
+	)
+	(wire
+		(pts
 			(xy 190.5 127) (xy 208.28 127)
 		)
 		(stroke
@@ -3901,6 +3871,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 69.85) (xy 186.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc62e7d-08b1-4b17-b5a2-5ba2333ec5f6")
+	)
+	(wire
+		(pts
 			(xy 133.35 62.23) (xy 133.35 69.85)
 		)
 		(stroke
@@ -3928,6 +3908,16 @@
 			(type default)
 		)
 		(uuid "f7861171-2156-490a-8bed-aa466858fced")
+	)
+	(wire
+		(pts
+			(xy 57.15 36.83) (xy 62.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89cd2c1-a7da-4e2b-abe0-0435630436c8")
 	)
 	(label "RFIO"
 		(at 154.94 111.76 0)
@@ -4211,7 +4201,7 @@
 	)
 	(global_label "WIO_RESET"
 		(shape input)
-		(at 57.15 31.75 0)
+		(at 62.23 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4221,7 +4211,7 @@
 		)
 		(uuid "6995050f-60ef-44f2-a6d7-3e3061491af7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2346 31.75 0)
+			(at 75.3146 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4499,7 +4489,7 @@
 	)
 	(global_label "E5_RX"
 		(shape input)
-		(at 57.15 36.83 0)
+		(at 62.23 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4509,7 +4499,7 @@
 		)
 		(uuid "ada27674-c764-4c24-8be4-b0aa7d3e6a1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.9408 36.83 0)
+			(at 71.0208 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4593,6 +4583,30 @@
 			)
 		)
 	)
+	(global_label "E5_TX"
+		(shape input)
+		(at 62.23 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb4ff365-37d8-4897-92e6-3b4d8f4d3f98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.7184 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BTN"
 		(shape input)
 		(at 45.72 69.85 0)
@@ -4619,17 +4633,17 @@
 	)
 	(global_label "MCU_FAULT_N"
 		(shape input)
-		(at 154.94 30.48 90)
+		(at 167.64 66.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "cb178740-b840-43ef-93ac-809fd9cb2c29")
+		(uuid "c60b19f1-1ae9-4a89-8e23-890fa190d089")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 14.6738 90)
+			(at 167.64 81.8462 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +4651,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4678,30 +4692,6 @@
 		(uuid "e1fd3718-6802-4b0d-b76b-1741231942e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.56 13.9483 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "E5_TX"
-		(shape input)
-		(at 57.15 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e383ee42-0798-4181-bd6d-5673619288de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6384 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,8 +4776,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 170.18 71.12 0)
+		(lib_id "Device:R")
+		(at 53.34 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4796,10 +4786,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07546fba-8c3d-47fa-8fdc-c5aaa5cfcfb2")
-		(property "Reference" "#PWR07"
-			(at 170.18 77.47 0)
-			(hide yes)
+		(uuid "00c55a8c-63b7-4e86-adee-65ae05874774")
+		(property "Reference" "R28"
+			(at 53.34 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4808,8 +4797,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 170.18 76.2 0)
+		(property "Value" "0"
+			(at 53.34 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4818,8 +4807,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 71.12 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 53.34 41.148 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4830,7 +4819,132 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 71.12 0)
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0 0402"
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ae96574-aabc-4fec-a15a-39d413a89b2d")
+		)
+		(pin "1"
+			(uuid "d0f60bf3-dbb1-4f31-bddd-3a206f828240")
+		)
+		(instances
+			(project "Beal-TX"
+				(path "/5ecf7ddf-d623-4591-9f28-acf618ce627e/63bc2df9-afc1-4a7a-a5d1-e51d49dff082"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07546fba-8c3d-47fa-8fdc-c5aaa5cfcfb2")
+		(property "Reference" "#PWR07"
+			(at 177.8 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4841,7 +4955,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 71.12 0)
+			(at 177.8 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5210,7 +5324,7 @@
 				)
 			)
 		)
-		(property "MPN" "10uF 16V 0805"
+		(property "MPN" "0.1uF 16V 0805"
 			(at 41.91 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6483,6 +6597,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 53.34 36.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48c62a66-19f3-4503-9fb6-8c36307b6faf")
+		(property "Reference" "R17"
+			(at 53.34 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 53.34 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 53.34 38.608 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0 0402"
+			(at 53.34 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6183b18d-ad28-4810-8951-f12630e83734")
+		)
+		(pin "1"
+			(uuid "aa1ea9b4-fd5d-416d-9e07-3d8401b507e5")
+		)
+		(instances
+			(project "Beal-TX"
+				(path "/5ecf7ddf-d623-4591-9f28-acf618ce627e/63bc2df9-afc1-4a7a-a5d1-e51d49dff082"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 228.6 132.08 0)
 		(unit 1)
@@ -6857,6 +7062,143 @@
 			(project "Beal-TX"
 				(path "/5ecf7ddf-d623-4591-9f28-acf618ce627e/63bc2df9-afc1-4a7a-a5d1-e51d49dff082"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 195.58 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66ae4452-1fb4-4b32-ab8c-9ffd19e45428")
+		(property "Reference" "C25"
+			(at 199.39 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 199.39 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 196.5452 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 195.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 195.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1uF 16V 0603"
+			(at 195.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1uF 16V 0603"
+			(at 195.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 195.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 195.58 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8f81d5c-b12b-4de6-a8ea-a9a6baff4daa")
+		)
+		(pin "2"
+			(uuid "f8afda4f-f8ec-42ee-89d6-e4652a9fea40")
+		)
+		(instances
+			(project "Beal-TX"
+				(path "/5ecf7ddf-d623-4591-9f28-acf618ce627e/63bc2df9-afc1-4a7a-a5d1-e51d49dff082"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -8024,143 +8366,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 195.58 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7f47ae7-0762-41bf-b37a-20b940d15114")
-		(property "Reference" "C25"
-			(at 199.39 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 199.39 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 196.5452 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1uF 16V 0603"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1uF 16V 0603"
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 195.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e89fcb7f-2ee9-43e8-8356-2439759e5254")
-		)
-		(pin "2"
-			(uuid "9889f6ad-280b-490d-a03f-b24e6da9c611")
-		)
-		(instances
-			(project "Beal-TX"
-				(path "/5ecf7ddf-d623-4591-9f28-acf618ce627e/63bc2df9-afc1-4a7a-a5d1-e51d49dff082"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 33.02 45.72 0)
 		(unit 1)
@@ -8410,143 +8615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 195.58 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c616d88b-9a19-4778-88f1-f9c7a08d9f0b")
-		(property "Reference" "R23"
-			(at 198.12 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 193.802 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "10K 0402"
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "10K 0402"
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 195.58 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "724ac826-28d5-407e-945f-5f37c050ae24")
-		)
-		(pin "1"
-			(uuid "2e7537a1-c107-4a33-b9d9-0bb8ea062cac")
-		)
-		(instances
-			(project "Beal-TX"
-				(path "/5ecf7ddf-d623-4591-9f28-acf618ce627e/63bc2df9-afc1-4a7a-a5d1-e51d49dff082"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 173.99 30.48 90)
 		(unit 1)
@@ -8626,8 +8694,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 53.34 36.83 0)
+		(lib_id "Device:R")
+		(at 195.58 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8636,9 +8704,145 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "cbef0bf1-9c31-457d-8cc4-ea6fb106c5df")
+		(property "Reference" "R23"
+			(at 198.12 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 198.12 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.802 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "10K 0402"
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "10K 0402"
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f74f6a6-ed3c-4a31-bbc0-6fce6ed636e4")
+		)
+		(pin "1"
+			(uuid "673334a6-dd92-4780-8c40-4c2be4ba4bd1")
+		)
+		(instances
+			(project "Beal-TX"
+				(path "/5ecf7ddf-d623-4591-9f28-acf618ce627e/63bc2df9-afc1-4a7a-a5d1-e51d49dff082"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "cc979665-3147-4346-9159-a48b98f7c5b5")
 		(property "Reference" "TP22"
-			(at 55.88 33.5279 0)
+			(at 67.31 33.5279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8649,7 +8853,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 55.88 34.7979 0)
+			(at 62.23 34.7979 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8661,7 +8865,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 58.42 36.83 0)
+			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,7 +8876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 36.83 0)
+			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8683,7 +8887,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 53.34 36.83 0)
+			(at 59.69 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9076,7 +9280,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-100RL"
+		(property "MPN" "0201WMF0000TEE"
 			(at 167.64 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -9126,7 +9330,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 50.8 34.29 0)
+		(at 58.42 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9137,7 +9341,7 @@
 		(fields_autoplaced yes)
 		(uuid "e020b308-77c7-4b5b-9b6e-06061d96bae4")
 		(property "Reference" "TP21"
-			(at 53.34 30.9879 0)
+			(at 60.96 36.0679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9148,7 +9352,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 53.34 32.2579 0)
+			(at 60.96 37.3379 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9160,7 +9364,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 55.88 34.29 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9171,7 +9375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 34.29 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9182,7 +9386,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 50.8 34.29 0)
+			(at 58.42 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

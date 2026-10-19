@@ -911,7 +911,7 @@
         "uuid": "5ecf7ddf-d623-4591-9f28-acf618ce627e"
       }
     ],
-    "used_designators": "B1-3,H5-12,TP1-22,R1-2,R5-22,R49-70,SW1-3,U1,U5-10,#PWR2-35,#PWR37-39,#PWR42-55,#PWR58-72,#PWR75-94,#PWR98-127,ANT1,J1-15,C1,C4-5,C8,C10-20,C41-47,C101-102,D1-5,D7-8,D15,IC1,L1-2",
+    "used_designators": "B1-3,H5-12,TP1-22,R1-2,R5-23,R28,R49-70,SW1-3,U1,U5-10,#PWR2-35,#PWR37-39,#PWR42-55,#PWR58-72,#PWR75-94,#PWR98-127,ANT1,J1-15,C1,C4-5,C8,C10-20,C25,C41-47,C101-102,D1-5,D7-12,D15,IC1,L1-2",
     "variants": [
       {
         "name": "Input Only"
@@ -937,10 +937,6 @@
     [
       "16410f5b-8ec8-4204-bf81-48a6840832db",
       "I/O Ext Board Output"
-    ],
-    [
-      "9d12cf38-d64d-4f51-9e0a-83b270c1ec37",
-      "super-capa"
     ]
   ],
   "text_variables": {},

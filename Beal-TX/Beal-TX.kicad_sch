@@ -104,52 +104,6 @@
 		)
 	)
 	(sheet
-		(at 163.195 33.655)
-		(size 54.61 29.845)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9d12cf38-d64d-4f51-9e0a-83b270c1ec37")
-		(property "Sheetname" "super-capa"
-			(at 163.195 32.9434 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "super-capa.kicad_sch"
-			(at 163.195 64.0846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Beal-TX"
-				(path "/5ecf7ddf-d623-4591-9f28-acf618ce627e"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 57.785 71.755)
 		(size 53.34 22.225)
 		(exclude_from_sim no)
