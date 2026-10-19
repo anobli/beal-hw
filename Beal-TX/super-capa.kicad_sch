@@ -1514,25 +1514,24 @@
 		(dnp no)
 		(uuid "00d1150b-15a4-487b-9942-7fc96effc50c")
 		(property "Reference" "R14"
-			(at 86.868 55.626 0)
+			(at 89.154 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "30"
-			(at 87.63 57.912 0)
+			(at 91 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
@@ -1607,23 +1606,25 @@
 		(dnp yes)
 		(uuid "048d8114-110b-4e7d-a23f-9fb71085daf7")
 		(property "Reference" "J9"
-			(at 82.55 78.74 0)
+			(at 80.645 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 82.55 76.2 0)
+			(at 80.645 70.485 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
@@ -1941,7 +1942,7 @@
 		(dnp no)
 		(uuid "30c5197c-ffc4-4cb6-bad9-80a268630f4d")
 		(property "Reference" "C14"
-			(at 101.6 67.6909 0)
+			(at 100.965 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1952,7 +1953,7 @@
 			)
 		)
 		(property "Value" "0.33F"
-			(at 99.314 69.596 0)
+			(at 100.965 70.485 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2462,17 +2463,15 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "76e24956-26de-4841-bb60-629bedbc94f5")
 		(property "Reference" "TP18"
-			(at 91.44 64.0079 0)
+			(at 83.185 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -2622,7 +2621,7 @@
 		(dnp no)
 		(uuid "7ceb5ac2-fb78-400b-8263-a1ab090f99de")
 		(property "Reference" "C13"
-			(at 101.6 57.5309 0)
+			(at 100.965 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2633,7 +2632,7 @@
 			)
 		)
 		(property "Value" "0.33F"
-			(at 99.314 59.436 0)
+			(at 100.965 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2714,7 +2713,7 @@
 		(dnp no)
 		(uuid "8bc2def1-8fff-4ed3-a705-d1d78ab7688a")
 		(property "Reference" "C15"
-			(at 101.6 77.8509 0)
+			(at 100.965 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2725,7 +2724,7 @@
 			)
 		)
 		(property "Value" "0.33F"
-			(at 99.314 79.756 0)
+			(at 100.965 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
